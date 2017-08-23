@@ -1,0 +1,8 @@
+--storepath c://test --output csv   --startdate 2015-09-01 --enddate 2015-12-07 --charset utf-8 --testfile ./portfolio_test.txt --reload Y --portfolio Y --thread 10
+1
+
+python main.py [-h] [--reload {Y,N}] [--portfolio {Y,N}]
+               [--output {json,csv,all}] [--storepath PATH] [--thread NUM]
+               [--startdate yyyy-MM-dd] [--enddate yyyy-MM-dd]
+               [--targetdate yyyy-MM-dd] [--testrange NUM] [--testfile PATH]
+
